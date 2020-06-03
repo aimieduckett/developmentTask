@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 54px;
+  margin-bottom: 3rem;
+}
+
+h2 {
+  opacity: 0.8;
+  margin-bottom: 2.5rem;
+}
+
+/* greeting and time */
+
+.main-box {
+  padding-top: 50px;
+}
+#time {
+  font-size: 8rem;
+}
+
+@media(max-width: 700px) {
+  #time font-size: 6rem;
+}
+
+/* focus section */
+#focus-color {
+  color: #faa21a;
+}
+
+#focus {
+  border-bottom: 2px solid;
+}
+
+/* bottom container */
+
+.bottom-container {
+  margin: 50px;
+}
+
+.btn {
+  position: relative;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  opacity: 0.8;
+}
+
+.btn.hover {
+  color: red;
+}
+
+.promptText {
+  font-size: 36px;
+}
+
+.feeling {
+  margin-bottom: 0.5rem;
+  opacity: 0.8;
+}
+
+.checkIcon {
+  padding: 10px;
+  color: green;
+}
+
+.close {
+  font-size: 18px;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #3498db;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.feeling {
+  font-size: 18px;
+}
+
+.buttonOne:hover {
+  color: green;
+}
+
+.buttonTwo:hover {
+  color: yellow;
+}
+
+.buttonThree:hover {
+  color: red;
+}
+
+#promptBox {
+  overflow: hidden;
+  display: none;
+  width: 500px;
+  background: #3f3f44;
+  box-shadow: 0 0 20px black;
+  border-radius: 8px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  padding: 10px;
+}
+
+#promptBoxOne {
+  overflow: hidden;
+  display: none;
+  width: 500px;
+  background: #3f3f44;
+  box-shadow: 0 0 20px black;
+  border-radius: 8px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  padding: 10px;
+}
+
+#promptBoxTwo {
+  overflow: hidden;
+  display: none;
+  width: 500px;
+  background: #3f3f44;
+  box-shadow: 0 0 20px black;
+  border-radius: 8px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  padding: 10px;
