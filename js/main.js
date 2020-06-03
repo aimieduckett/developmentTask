@@ -43,7 +43,7 @@ function setTod() {
   } else if (hour < 17) {
     // afternoon
     document.body.style.backgroundImage = "url(images/afternoon.jpg)";
-    greeting.textContent = 'Good Aftenoon,';
+    greeting.textContent = 'Good Afternoon,';
   } else {
     // evening
     document.body.style.backgroundImage = "url(images/night.jpg)";
