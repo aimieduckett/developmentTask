@@ -38,15 +38,15 @@ function setTod() {
 
   if (hour < 12) {
     // morning
-    document.body.style.backgroundImage = "url(../images/sunrise.jpg)";
+    document.body.style.backgroundImage = "url(images/sunrise.jpg)";
     greeting.textContent = 'Good Morning,';
   } else if (hour < 17) {
     // afternoon
-    document.body.style.backgroundImage = "url(../images/afternoon.jpg)";
+    document.body.style.backgroundImage = "url(images/afternoon.jpg)";
     greeting.textContent = 'Good Aftenoon,';
   } else {
     // evening
-    document.body.style.backgroundImage = "url(../images/night.jpg)";
+    document.body.style.backgroundImage = "url(images/night.jpg)";
     greeting.textContent = 'Good Evening,';
     document.body.style.color = "white";
   }
